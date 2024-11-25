@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de doação | Vitalidad</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="Logotipo Vitalidad" height="75px">
+            <h1>Vitalidad</h1>
+            <p>Saúde, Energia e Equilíbrio para uma vida plena!</p>
+            <nav>
+                <a href="index.html">Início</a>
+                    <a href="#">Faça sua doação!</a>
+                    <a href="consulta.html">Saúde mental</a>
+                    <a href="index.html#contato">Contato</a>
+                    <a href="faq.html">FAQ</a>
+            </nav>
+    </header>
+
+
+    <section class="cabecalhopag">
+        <h1>A equipe está imensamente agradecida por você ajudar a instituiçao!</h1>
+        <p class="paragrafomsg">A equipe Vitalidad agradece por você ajudar a continuarmos ajudando as pessoas. Qualquer valor é aceito para mantermos a instituição de pé!</p>
+    </section>
+
+    <div class="formajuste">
+        <form action="teste.php" class="formulario">
+            <label for="valorajuda">Insira seu valor de ajuda abaixo!</label>
+            <br>
+            <input type="text" id="valorajuda" name="valorajuda1" value="R$">
+            <button class="bootaodocao" onclick="alertbotton()">Envie seu valor de ajuda</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>
+            Doe usando o QRCode
+        </h1>
+        <figure><img src="imagens/qrcode.png" alt="QR CODE" class="qrcode"></figure>
+    </div>
+    <div class="voltariniciobotao"><a href="index.html" id="voltariniciobotao">Voltar para a página inicial.</a></div>
+
+    <footer>
+        <p>2024 Vitalidad. Todos os direitos reservados</p>
+    </footer>
+
+
+
+    <script>
+        function alertbotton () {
+         alert ("Doação Realizada com Sucesso. Muito Obrigado!")
+        }
+     </script>
+</body>
+</html>

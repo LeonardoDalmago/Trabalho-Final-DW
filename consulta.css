@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url(imagens/header.png);
+    background-size: cover;
+    color: white;
+    padding: 1.3em;
+    text-align: center;
+    border-bottom: 0.5px solid #B9DCA6;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+}
+
+header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+    color: #B9DCA6;
+    transition: all 0.3s ease;
+}
+
+.img{
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 3px solid #B9DCA6;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #253321;
+    padding: 20px;
+    color: white;
+    gap: 20px;
+}
+
+
+.descricao h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.selecionar {
+    background-color: #cc9658;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px black;
+}
+
+.selecionar:hover {
+    background-color: #b57e4d;
+    box-shadow: 0 5px 7px black;
+}
+
+.voltariniciobotao{
+    text-align: center;
+    padding: 30px;
+    background-color: #253321;
+    border: 1px solid #B9DCA6;
+}
+#voltariniciobotao{
+    background-color: #cc9658;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px black;
+    text-align: center;
+}
+#voltariniciobotao:hover{
+    background-color: #cc9658;
+    box-shadow: 0 5px 7px black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #253321;
+    padding: 20px;
+    color: white;
+    gap: 20px;
+}
+
+
+.descricao2 h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.descricao2 p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}

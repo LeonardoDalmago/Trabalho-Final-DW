@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-image: url(imagens/header.png);
+    background-size: cover;
+    color: white;
+    padding: 1.3em;
+    text-align: center;
+    border-bottom: 0.5px solid #B9DCA6;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+}
+
+header p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+    color: #B9DCA6;
+    transition: all 0.3s ease;
+}
+
+
+
+body {
+    background-color: #253321;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    border: solid 2px #cc9658;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #cc9658;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 0;
+    box-shadow: 0 2px 4px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 1px 1px black;
+}
+
+.formajuste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.cabecalhopag {
+    text-align: center;
+    padding-bottom: 75px;
+    padding: 20px;
+    border-bottom: solid #B9DCA6 0.5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.qrcode {
+    width: 270px;
+    text-align: center;
+}
+
+.paragrafomsg {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.voltariniciobotao{
+    text-align: center;
+    padding: 30px;
+    background-color: #253321;
+}
+#voltariniciobotao{
+    background-color: #cc9658;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px black;
+    text-align: center;
+}
+#voltariniciobotao:hover{
+    background-color: #cc9658;
+    box-shadow: 0 5px 7px black;
+}
+footer{
+    text-align: center;
+}
